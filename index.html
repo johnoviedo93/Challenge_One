@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto Encriptador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet"/>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+
+  <body class="flex">
+    
+    <section class="flex logo">
+      <img src="img/Logo.png" alt="" />
+    </section>
+    
+    <section class="flex container">
+      <section class="flex container-area">
+        <section class="flex container-text">
+          <textarea id="texto" placeholder="Ingrese el texto aqui"></textarea>
+          <div class="flex container-footer">
+            <i class="bx bxs-bell"></i>
+            <span>Ingrese el texto en letras minúsculas y sin números</span>
+          </div>
+        </section>
+        <section class="flex container-buttons">
+          <button id="encriptar">Encriptar Mensaje</button>
+          <button id="desencriptar">Desencriptar Mensaje</button>
+        </section>
+      </section>
+      <section class="flex container-area">
+        <div class="flex container-msj">
+          <section class="container-img">
+            <img src="img/lupa.png" alt="" />
+          </section>
+          <section class="flex container-alert">
+            <p>Como usar el Encriptador</p>
+            <ol>
+              <li>Ingresa un mensaje en el campo de texto.</li>
+              <li>Haz clic en el botón "Encriptar" para encriptar el mensaje.</li>
+              <li>Para desencriptar un mensaje encriptado, haz clic en el botón "Desencriptar".</li>
+            </ol>
+          </section>
+        </div>
+      </section>
+    </section>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>
